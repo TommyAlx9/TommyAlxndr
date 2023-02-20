@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Promosi Produk</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Promosi Produk</h1>
+		<nav>
+			<ul>
+				<li><a href="#produk">Produk</a></li>
+				<li><a href="#testimoni">Testimoni</a></li>
+				<li><a href="#kontak">Kontak</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="produk">
+		<h2>Produk Terbaru</h2>
+		<div class="produk">
+			<img src="gambar-produk.jpg" alt="Produk Terbaru">
+			<p>Deskripsi Produk Terbaru</p>
+			<button>Beli Sekarang</button>
+		</div>
+	</section>
+
+	<section id="testimoni">
+		<h2>Testimoni Pelanggan</h2>
+		<div class="testimoni">
+			<p>"Saya sangat senang dengan produk Anda. Sangat berkualitas dan memuaskan."</p>
+			<p>- Nama Pelanggan</p>
+		</div>
+	</section>
+
+	<section id="kontak">
+		<h2>Hubungi Kami</h2>
+		<form action="#">
+			<label for="nama">Nama:</label>
+			<input type="text" id="nama" name="nama" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="pesan">Pesan:</label>
+			<textarea id="pesan" name="pesan" required></textarea>
+
+			<input type="submit" value="Kirim">
+		</form>
+	</section>
+
+	<footer>
+		<p>&copy; 2023 Promosi Produk</p>
+	</footer>
+</body>
+</html>
